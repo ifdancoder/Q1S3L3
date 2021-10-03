@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="IntArr.cpp" />
+    <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="Q1S3L3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntArr.h" />
+    <ClInclude Include="Matrix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
